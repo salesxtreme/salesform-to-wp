@@ -316,3 +316,5 @@ function mywebhook_count_plugin_users( $mode = null ) {
 
     return $count;
 }
+// cron futtatása
+require_once plugin_dir_path( __FILE__ ) . 'cron.php';
